@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { HeaderComponent } from './header/header.component';
 import { UserInputComponent } from './user-input/user-input.component';
 
-import { type InputData } from './app.model';
+import type { InputData } from './app.model';
 
 @Component({
   selector: 'app-root',
