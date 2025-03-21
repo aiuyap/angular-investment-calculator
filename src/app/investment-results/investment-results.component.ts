@@ -10,5 +10,5 @@ import { ResultType } from '../app.model';
   styleUrl: './investment-results.component.css',
 })
 export class InvestmentResultsComponent {
-  @Input() results?: ResultType;
+  @Input() results?: ResultType[];
 }
